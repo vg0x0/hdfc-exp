@@ -1,10 +1,15 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
+  name: appsody-sample-nodejs-express
+  namespace: vikash-nodeexp
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2020-01-30T08:16:17.662981
+    commit.image.appsody.dev/contextDir: C:\appsody\appsody_sample_nodejs-express
+    commit.image.appsody.dev/date: Wed Jun 24 22:30:54 2020 -0700
+    commit.image.appsody.dev/message: first commit
     commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/nodejs-express
@@ -14,7 +19,12 @@ metadata:
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-06-24T03:02:15-07:00"
+    image.opencontainers.org/created: "2020-06-24T22:46:53-07:00"
+    image.opencontainers.org/documentation: https://github.com/vg0x0/hdfc-nodexp
+    image.opencontainers.org/revision: dfc02d6050cbbcbd99aad91d08a48b95fc218444
+    image.opencontainers.org/source: |
+      https://github.com/vg0x0/hdfc-nodexp/tree/master
+    image.opencontainers.org/url: https://github.com/vg0x0/hdfc-nodexp
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
